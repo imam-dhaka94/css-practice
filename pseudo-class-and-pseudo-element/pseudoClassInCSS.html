@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Learning HTML</title>
+		<style type="text/css">
+			a:hover{
+				color:red;
+				background-color:black;
+			}
+			a:link{
+				color:green;
+			}
+			a:visited{
+				color:maroon;
+			}
+			a:active{
+				color:black;
+				background-color:white;
+				border: 2px solid gray;
+			}
+			
+			input:focus{
+				width:250px;
+				background-color:powderblue;
+			}
+			a, div {
+				margin:5px;
+				padding:10px;
+			}
+			p::first-letter{
+				font-size:3rem;
+				color:purple;
+			}
+			p::selection{
+				background-color:black;
+				color:white;
+			}
+			input::placeholder{
+				color:rgba(105, 17, 17, 0.377);
+			}
+			li:nth-child(2n+1){
+				color:aliceblue;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="#">This is a link</a><br>
+		<div>
+		<label for="name">Name:</label>
+		<input type="text" placeholder="write your name">
+		</div>
+		<p>Bangladesh forms the sovereign part of the historic and ethnolinguistic 
+		region of Bengal, which was divided during the Partition of India in 1947 as part 
+		of a Muslim union with Pakistan, 
+		which it separated from in 1971.[27] The country has a Bengali Muslim 
+		</p>
+		<ul>
+			<caption>this is a list</caption>
+			<li>home1</li>
+			<li>home2</li>
+			<li>home3</li>
+			<li>home4</li>
+			<li>home5</li>
+		</ul>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/x0prF61CpHY?si=lfIbN2HBQ-i-1qL_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</body>
+</html>
