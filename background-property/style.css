@@ -1,0 +1,27 @@
+
+.div2 {
+	height:700px;
+	width:900px;
+	border:5px dotted gray;
+	margin:15px auto;
+	background:radial-gradient(circle, green, red, blue, yellow);
+	background-clip: padding-box;
+}
+body{
+	/*background-image:url('image/Water lily.jpeg');
+	background-size: 300px;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;*/
+	padding:10px;
+	background: url('image/Water lily.jpeg') center/300px no-repeat fixed;
+}
+body h1{
+	color:maroon;
+	font-size:40px;
+	text-align:center;
+}
+#div1{
+	background-color:green;
+	color:maroon;
+}
