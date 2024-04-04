@@ -1,0 +1,25 @@
+#div1{
+	background-color:red;
+	font-weight: bolder;
+	font-size:20px;
+	text-decoration:underline;
+	text-transform:capitalize;
+	float:left;
+}
+#div2{
+	background-color:yellow;
+	font-weight: bolder;
+	font-size:20px;
+	text-decoration:underline;
+	text-transform:capitalize;
+	float:right;
+	margin-bottom:20px;
+}
+#div3{
+	background-color:green;
+	font-weight: bolder;
+	font-size:18px;
+	text-transform:capitalize;
+	clear:both;
+	color:pink;
+}
