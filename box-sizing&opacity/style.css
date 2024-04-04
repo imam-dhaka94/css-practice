@@ -1,0 +1,53 @@
+#div1{
+	height:350px;
+	width:50%;
+	background-color: blanchedalmond;
+	float:left;
+	padding:10px;
+	border:10px;
+	box-sizing:border-box; /*this is a box-sizing*/
+}
+#div1 p{
+	text-indent:50px;
+	line-height:30px;
+	font-size:20px;
+	color:maroon;
+}
+#div1 p::first-letter{
+	font-size:3rem;
+	color:green;
+}
+#div2{
+	height:350px;
+	width:50%;
+	background-color: aqua;
+	float:left;
+	padding:10px;
+	border:10px;
+	margin-bottom:30px;
+	box-sizing:border-box; /*this is a box-sizing*/
+}
+#div2 p{
+	text-indent:50px;
+	line-height:30px;
+	font-size:20px;
+	color:maroon;
+}
+#div2 p::first-letter{
+	font-size:3rem;
+	color:blue;
+}
+::selection{
+	background-color:maroon;
+	color:white;
+}
+img{
+	height: 400px;
+	width: 600px;
+	display:block;
+	margin: 30px auto;
+	opacity: 0.5; /*this is a Opacity*/
+}
+img:hover{
+	opacity: 1; /*this is a Opacity*/
+}
