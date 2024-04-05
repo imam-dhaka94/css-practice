@@ -1,0 +1,39 @@
+.nav-bar{
+    border:10px solid green;
+    border-radius:7px;
+    background-color: black;
+    position: fixed;
+    left:0;
+    top:0;
+    
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.nav-bar a:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: rgb(233, 14, 14);
+}
+.body-text{
+    border: 1px solid tomato;
+    position: relative;
+    left: 60px;
+}
+.body-text p::first-letter{
+    font-size: 3rem;
+    color: green;
+}
+.div1{
+    border: 3px solid yellow;
+    position: relative;
+    left: 150px;
+   
+}
+.div2{
+    border: 5px solid blue;
+    position: absolute;
+    left: 150px;
+}
