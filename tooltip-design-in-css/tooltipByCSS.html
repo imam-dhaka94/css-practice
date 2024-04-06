@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltib design by css</title>
+    <style>
+        .tooltip{
+            position: relative;
+            font-size: 20px;
+            text-decoration: none;
+
+
+        }
+        .tooltip .tooltip-text{
+            background-color: blue;
+            color: white;
+            font-size: 18px;
+            position: absolute;
+            top:30px;
+            left: 35px;
+            border: 1px solid black;
+            visibility: hidden;
+            padding: 10px;
+
+        }
+       .tooltip:hover .tooltip-text{
+        visibility: visible;
+       
+       }
+       .tooltip:hover{
+        color: red;
+        text-decoration: underline;
+       }
+
+    </style>
+</head>
+<body>
+    <a class="tooltip" href="#">Facebook
+        <span class="tooltip-text">Facebook is social media</span>
+    </a>
+    
+</body>
+</html>
