@@ -3,8 +3,7 @@
     border-radius:7px;
     background-color: black;
     position: fixed;
-    left:0;
-    top:0;
+    right:4px;
     
 }
 .nav-bar a{
@@ -16,6 +15,7 @@
     text-decoration: underline;
     background-color: white;
     color: rgb(233, 14, 14);
+    cursor: pointer;
 }
 .body-text{
     border: 1px solid tomato;
@@ -36,4 +36,29 @@
     border: 5px solid blue;
     position: absolute;
     left: 150px;
+}
+
+iframe{
+    margin: 50px auto;
+    display: block;
+}
+.sticky-position{
+    border: 3px solid blueviolet;
+    height: 100px;
+    position:sticky;
+    top: 5px;
+    width: 300px;
+    margin: 0px auto;
+}
+.sticky-position h2{
+    text-align: center;
+}
+
+.chat-box{
+    border: 5px solid gray;
+    height: 100;
+    width:150px;
+    position: fixed;
+    bottom:3px;
+    right: 3px;
 }
