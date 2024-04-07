@@ -1,0 +1,39 @@
+:root{
+    --primary-color:yellow;
+    --normal-color:black;
+}
+.div1{
+    height: 300px;
+    width: 400px;
+    border: 1px solid red;
+    position: absolute;
+    z-index: 1;
+    background-color: var(--primary-color)
+    
+    
+}
+.div2{
+    height: 300px;
+    width: 400px;
+    border: 1px solid rgb(32, 3, 196);
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 0; /*thats why black is under the yellow*/
+    background-color: var(--normal-color)
+}
+@media screen and (max-width:700px) {
+    .div1{
+        background-color: black;
+    }
+    .div2{
+        background-color:yellow;
+    } 
+}
+
+iframe{
+    position:relative;
+    top:500px;
+    
+}
+    
