@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New practice</title>
+    <style>
+        .container{
+            background-color: yellow;
+            height: auto;
+            width: 100%;
+            padding: 50px;
+            display: flex;
+            /* flex-wrap:wrap; */
+            flex-flow: wrap row;
+            height: 500px;
+            
+           
+           /* flex-direction:column-reverse;   column-reverse use korle dekhabe bottom to top */
+           /*(flex-direction: column;) use korle column wise direction dekhabe*/
+           /* justify-content: flex-start; */
+           /* align-items: flex-start; for align top */
+            /* align-items: flex-end; /*for align bottom */
+            align-items: center; /* it use for meddle align */
+            justify-content: center;
+            /* perfently center a korte chaile justify-content ke and align-items ke center korte hobe */
+            
+        }
+        .container > div {
+            background-color: green;
+            margin:20px;
+            height: 100px;
+            padding: 10px;
+            font-size: 34px;
+            width: 200px;
+        }
+        
+        /*------------------------------ 
+        div Ordering/ mantainig serial
+        ------------------------------ */
+        .container .div7{
+            order: 1;
+        }
+        .container .div5{
+            order: 2;
+        }
+        .container .div8{
+            order: 3;
+        }
+        .container .div4{
+            order: 4;
+            flex-basis: 300px; /* kono spacific item er size barate flex-basis use korte hoy*/
+        }
+        .container .div1{
+            order: 5;
+        }
+        .container .div2{
+            order: 6;
+        }
+        .container .div3{
+            order: 7;
+        }
+        .container .div6{
+            order: 8;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">Div1</div>
+        <div class="div2">Div2</div>
+        <div class="div3" >Div3</div>
+        <div class="div4">Div4</div>
+        <div class="div5">Div5</div>
+        <div class="div6">Div6</div>
+        <div class="div7">Div7</div>
+        <div class="div8">Div8</div>
+    </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2McU9mRBk_8?si=D5xkTNasrREqT0Jr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
