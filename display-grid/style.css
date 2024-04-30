@@ -1,0 +1,32 @@
+.container{
+    margin: 5px auto;
+    width: 80%;
+    height: 900px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    grid-template-rows: 100px repeat(3, 150px);
+    grid-gap: 3px;
+    text-align: center;
+    place-items: space-evenly;
+    grid-auto-rows: 1fr;
+
+
+}
+.items{
+    background-color: bisque;
+    text-align: center;
+}
+.item1{
+    grid-column: 1/-1;
+}
+
+.item4{
+    /* grid-row: 2 span; */
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+}
+.item8{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
