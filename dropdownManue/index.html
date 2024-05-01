@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Manue</title>
+    <style>
+        .container{
+             background-color: rgb(83, 146, 83);
+             height: 100px;
+             width: 80%;
+             margin: 3px auto;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+
+             
+        }
+        .container nav{
+            text-align: center;
+            
+        }
+        .container nav a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 30px;
+            font-size: 1.3rem;
+            font-weight: bolder;
+
+        }
+       .dropdown-container{
+            display: inline;
+            position: relative;
+             
+        }
+
+        /* .dropdown-container a{
+            transition-duration: 30s;
+        } */
+
+        .dropdown-content{
+            background-color: rgb(83, 146, 83);
+            position: absolute;
+            top: 30px;
+            right: 0%;
+            left: 1px;
+            display: none;
+            
+            
+
+        }
+        .dropdown-content a{
+            display: block;
+            text-align: left;
+            transition-duration: 0.3s;
+            
+        }
+        .dropdown-container:hover .dropdown-content{
+            display: block;
+           
+        }
+        .dropdown-content a:hover{
+            background-color: black;
+            color: white;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="#">Hme</a>
+            <a href="#">Tutorial</a>
+            <div class="dropdown-container">
+                <a href="#">Contact me</a>
+                <div class="dropdown-content">
+                    <a href="#">Email</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+            <a href="#">About me</a>
+        </nav>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BoOzeYtc2hI?si=WNWtfPto4wRjDAuO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

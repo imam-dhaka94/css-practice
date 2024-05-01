@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            text-decoration: none;
+        }  
+        .container{
+            width: 90%;
+            background-color: cadetblue;
+            margin: 5px auto;
+            /* padding: 10px 2px; */
+
+            
+
+        } 
+
+        .navbar{
+            display: flex;
+            justify-content: flex-end;
+
+        }
+        .navbar a{
+            color: white;
+            padding: 10px 30px;
+            font-size: 1.3rem;
+            font-family: arial;
+            font-weight: bolder;
+            transition-duration: 0.3s;
+        }
+
+        .navbar a:hover{
+            background-color: gray;
+        }
+
+        .navbar a:active{
+            background-color: white;
+            color: black;
+        }
+
+        @media screen and (max-width: 600px) {
+            .navbar{
+                flex-direction: column;
+               
+               
+            }
+            .navbar a{
+                 background-color: brown;
+                 margin: 10px 3px;
+                 border-radius: 8px;
+                 text-align: center;
+            }
+            s
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar"
+        ><a href="#">Home</a>
+        <a href="#">Tutorial</a>
+        <a href="#">About us</a>
+        <a href="#">Contact me</a>
+        </nav>
+    </div>
+</body>
+</html>
