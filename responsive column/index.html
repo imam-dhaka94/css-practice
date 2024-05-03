@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive column</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100%;
+            display: grid;
+            grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+            /* grid-template-rows: repeat(4, 1fr);s */
+        }   
+        .item{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        iframe{
+            display: block;
+            height: 600px;
+            width: 60%;
+            margin: 20px auto;
+        }
+        @media screen and (max-width: 700px) {
+                iframe{
+                display: block;
+                height: auto;
+                width: 60%;
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <h1>HTML</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur libero, minus et molestiae quos sed id. Corrupti enim explicabo reiciendis, quasi similique debitis voluptatibus repellat quidem, doloribus voluptate voluptates eum rem cumque dignissimos non distinctio, nobis incidunt aut hic commodi ut quas nulla? Tempora fugit, sapiente quae necessitatibus suscipit unde fuga aut dolorum quod consequuntur a praesentium natus quis ducimus aliquam perferendis, nemo, voluptate vitae obcaecati accusantium distinctio quos magnam. Ut minus debitis, modi neque accusamus perspiciatis repellendus hic quisquam. Sequi rerum nulla debitis culpa quod iure consectetur accusantium commodi labore hic atque, dicta omnis, consequatur facere nemo dolore est?</p>
+        </div>
+        <div class="item">
+            <h1>CSS</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur libero, minus et molestiae quos sed id. Corrupti enim explicabo reiciendis, quasi similique debitis voluptatibus repellat quidem, doloribus voluptate voluptates eum rem cumque dignissimos non distinctio, nobis incidunt aut hic commodi ut quas nulla? Tempora fugit, sapiente quae necessitatibus suscipit unde fuga aut dolorum quod consequuntur a praesentium natus quis ducimus aliquam perferendis, nemo, voluptate vitae obcaecati accusantium distinctio quos magnam. Ut minus debitis, modi neque accusamus perspiciatis repellendus hic quisquam. Sequi rerum nulla debitis culpa quod iure consectetur accusantium commodi labore hic atque, dicta omnis, consequatur facere nemo dolore est?</p>
+        </div>
+        <div class="item">
+            <h1>JavaScript</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur libero, minus et molestiae quos sed id. Corrupti enim explicabo reiciendis, quasi similique debitis voluptatibus repellat quidem, doloribus voluptate voluptates eum rem cumque dignissimos non distinctio, nobis incidunt aut hic commodi ut quas nulla? Tempora fugit, sapiente quae necessitatibus suscipit unde fuga aut dolorum quod consequuntur a praesentium natus quis ducimus aliquam perferendis, nemo, voluptate vitae obcaecati accusantium distinctio quos magnam. Ut minus debitis, modi neque accusamus perspiciatis repellendus hic quisquam. Sequi rerum nulla debitis culpa quod iure consectetur accusantium commodi labore hic atque, dicta omnis, consequatur facere nemo dolore est?</p>
+        </div>
+        <div class="item">
+            <h1>C++</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur libero, minus et molestiae quos sed id. Corrupti enim explicabo reiciendis, quasi similique debitis voluptatibus repellat quidem, doloribus voluptate voluptates eum rem cumque dignissimos non distinctio, nobis incidunt aut hic commodi ut quas nulla? Tempora fugit, sapiente quae necessitatibus suscipit unde fuga aut dolorum quod consequuntur a praesentium natus quis ducimus aliquam perferendis, nemo, voluptate vitae obcaecati accusantium distinctio quos magnam. Ut minus debitis, modi neque accusamus perspiciatis repellendus hic quisquam. Sequi rerum nulla debitis culpa quod iure consectetur accusantium commodi labore hic atque, dicta omnis, consequatur facere nemo dolore est?</p>
+        </div>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KH5YyDutRdA?si=CTrG6D3ucsCBu-tX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
