@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar starts from here  */
+
+.navbar{
+    margin-bottom: 80px;
+    padding: 20px;
+    background-color: rgb(248,249,250);
+    
+
+}
+.nav-heading{
+    text-align: left;
+    position: relative;
+    bottom: 5px;
+    color: rgb(23,162,184);
+
+
+}
+.nav-heading h1{
+    font-size: 3rem;
+    color: rgb(23,162,184);
+
+}
+.nav-manu{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.nav-manu a{
+    text-align: center;
+    padding: 10px 15px;
+    margin: 0px 5px;
+    color: black;
+    transition: 0.3s;
+
+
+}
+
+.nav-manu a:hover{
+    color: rgb(23,162,184);
+}
+.pages-container{
+    display: inline;
+    position: relative;
+    transition: 2s;
+
+}
+
+.pages-container:hover .pages-content{
+    display: block;
+}
+.pages-content{
+    width: max-content;
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    display: none;
+
+
+}
+
+
+
+.pages-content a{
+    display: block;
+    text-align: left;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.pages-content a:hover{
+    background-color: black;
+    color: white;
+}
+.home{
+    color: rgb(23,162,184) !important;
+}
+
+
+
+.btn button{
+    padding: 10px 30px;
+    background-color: rgb(23,162,184);
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+[class*="col-"]{
+    float: left;
+
+}
+.navbar::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* navbar ends here  */
+
+/* profile starts here  */
+
+.profile{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(7, 163, 211);
+    color: white;
+    font-family: cursive;
+    
+}
+
+.profile-section1{
+
+    margin-top: 120px;
+
+    padding: 20px 10px;
+    
+}
+
+.heading1 h1{
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.heading2 h1{
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.profile .profile-section2 img{
+    height: 655px;
+    width: 593;
+    
+}
+
+.btn2 button{
+    margin: 30px 0px;
+    padding: 15px 35px;
+    background-color: rgb(8, 102, 146);
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+
+
+[class*="col-"]{
+    float: left;
+}
+
+.profile::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* profile starts here  */
+
+
+/* card section start here  */
+
+.card{
+    display: flex;
+    
+}
+
+/* card section ends here  */
